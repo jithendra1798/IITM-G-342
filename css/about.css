@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+  color: maroon;
+  font-family: "Exo", sans-serif;
+  background-color: #d7eef7;
+}
+/**Header**/
+
+.container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border-width: 5px;
+  border-color: darkgray;
+  box-shadow: 0 0 5px #3f0c1f;
+}
+
+#logo-img {
+  background: url("../images/logo5.png") no-repeat;
+  width: 130px;
+  height: 100px;
+  margin: 10px 15px 10px 10px;
+  border-radius: 57px;
+  border: 6px solid orange;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: "Raleway", sans-serif;
+  color: #b0f;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  font-size: 1.5em;
+  color: #002b36;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+/* about us styles */
+.points {
+  background: lightgray;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border: 1.5px solid maroon;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
